@@ -13,7 +13,7 @@ import Link from "next/link";
 interface CompanionsListProps {
   title: string;
   companions?: Companion[];
-  classnames?: string;
+  classNames?: string;
 }
 
 const CompanionsList = ({
