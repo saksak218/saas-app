@@ -12,12 +12,14 @@ const Navbar = () => {
           <Image src="/images/logo.svg" alt="logo" width={46} height={44} />
         </div>
       </Link>
-      <div className="flex items-center gap-8">
+      <div className="flex items-center gap-4 sm:gap-8">
         <NavItems />
 
         <SignedOut>
           <SignInButton>
-            <button className="btn-signin">Sign In</button>
+            <button className="max-sm:text-sm btn-signin max-sm:shrink-0">
+              Sign In
+            </button>
           </SignInButton>
         </SignedOut>
 
