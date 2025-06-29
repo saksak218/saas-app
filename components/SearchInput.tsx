@@ -4,7 +4,6 @@ import { formUrlQuery, removeKeysFromUrlQuery } from "@jsmastery/utils";
 import Image from "next/image";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { fa } from "zod/v4/locales";
 
 const SearchInput = () => {
   const pathname = usePathname();
